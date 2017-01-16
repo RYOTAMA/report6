@@ -25,6 +25,9 @@ public class LivingThing {
         return name;
     }
 
+    public  int getAttack(){
+        return attack;
+    }
 
     public void attack(LivingThing e){
         if(!dead) {
